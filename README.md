@@ -1,6 +1,7 @@
 # Random Math Problems 
 
-Done in Python 3
+Done in Python 3.
+
 When I get bored, I find simple math problems I think are interesting and make them into functions in python.
 
 ## Math Problems 
