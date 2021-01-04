@@ -1,23 +1,6 @@
 # Raul Martinez
 # Description: Random functions that I find interesting. Some code was found online.
 
-# Header to make the script look nice.
-def header():
-    print('\n'
-          'Random Stuff \n'
-          'Enter an operating value listed below: \n'
-          '\n'
-          '0: Exit \n'
-          '1: Factorial \n'
-          '2: Sequence Sum \n'
-          '3: Fibonnaci Sequence \n'
-          '4: Pascal\'s Triangle \n')
-
-
-# Footer to make the script look nice.
-def footer():
-    print('\n'
-          '-------------------------')
 
 # Factorial: 4 => 4 x 3 x 2 x 1 = 24
 def factorial(n):

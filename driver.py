@@ -1,11 +1,30 @@
 import func as f
 
 
+# Header to make the script look nice.
+def header():
+    print('\n'
+          'Random Stuff \n'
+          'Enter an operating value listed below: \n'
+          '\n'
+          '0: Exit \n'
+          '1: Factorial \n'
+          '2: Sequence Sum \n'
+          '3: Fibonnaci Sequence \n'
+          '4: Pascal\'s Triangle \n')
+
+
+# Footer to make the script look nice.
+def footer():
+    print('\n'
+          '-------------------------')
+
+
 if __name__ == "__main__":
     x = -1
 
     while x != 0:
-        f.header()
+        header()
 
         try:
             x = int(input('::\t'))
@@ -24,4 +43,4 @@ if __name__ == "__main__":
         except ValueError:
             print("Input should be an integer greater than ZERO. ")
 
-        f.footer()
+        footer()
